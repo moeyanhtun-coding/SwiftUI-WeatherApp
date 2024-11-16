@@ -3,4 +3,130 @@
    uuid = "3108652C-A337-4C6C-AB3D-58715FE892AC"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6659D9BA-C055-4DB0-9A11-E4652543F463"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI-Weather/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "633BB046-6E7D-417D-8532-0AAFF19A085F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI-Weather/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "633BB046-6E7D-417D-8532-0AAFF19A085F - baa8a7d10f767338"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI_Weather.BackgroundView, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI_Weather.CityTextView, SwiftUI_Weather.MainWeatherStatusView, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView)&gt;&gt;, SwiftUI.Spacer, SwiftUI_Weather.WeahterChangeButtonView, SwiftUI.Spacer)&gt;&gt;)&gt; in SwiftUI_Weather.ContentView.body.getter : some"
+                  moduleName = "SwiftUI-Weather.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeyanhtun/Desktop/SwiftUI-Tutorial%20/SwiftUI-Weather/SwiftUI-Weather/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+               <Location
+                  uuid = "633BB046-6E7D-417D-8532-0AAFF19A085F - 1f72d4fec05e7a6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI_Weather.CityTextView, SwiftUI_Weather.MainWeatherStatusView, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView)&gt;&gt;, SwiftUI.Spacer, SwiftUI_Weather.WeahterChangeButtonView, SwiftUI.Spacer)&gt; in closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI_Weather.BackgroundView, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI_Weather.CityTextView, SwiftUI_Weather.MainWeatherStatusView, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView)&gt;&gt;, SwiftUI.Spacer, SwiftUI_Weather.WeahterChangeButtonView, SwiftUI.Spacer)&gt;&gt;)&gt; in SwiftUI_Weather.ContentView.body.getter : some"
+                  moduleName = "SwiftUI-Weather.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeyanhtun/Desktop/SwiftUI-Tutorial%20/SwiftUI-Weather/SwiftUI-Weather/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "40F1B8EF-7CAC-44B5-A837-B2FF25B82356"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI-Weather/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "40F1B8EF-7CAC-44B5-A837-B2FF25B82356 - 16261930dd3b33fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftUI_Weather.ContentView.body.getter : some"
+                  moduleName = "SwiftUI-Weather.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeyanhtun/Desktop/SwiftUI-Tutorial%20/SwiftUI-Weather/SwiftUI-Weather/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+               <Location
+                  uuid = "40F1B8EF-7CAC-44B5-A837-B2FF25B82356 - baa8a7d10f767366"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; SwiftUI.TupleView&lt;(SwiftUI_Weather.BackgroundView, SwiftUI.VStack&lt;SwiftUI.TupleView&lt;(SwiftUI_Weather.CityTextView, SwiftUI_Weather.MainWeatherStatusView, SwiftUI.HStack&lt;SwiftUI.TupleView&lt;(SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView, SwiftUI_Weather.WeatherDayView)&gt;&gt;, SwiftUI.Spacer, SwiftUI_Weather.WeahterChangeButtonView, SwiftUI.Spacer)&gt;&gt;)&gt; in SwiftUI_Weather.ContentView.body.getter : some"
+                  moduleName = "SwiftUI-Weather.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/moeyanhtun/Desktop/SwiftUI-Tutorial%20/SwiftUI-Weather/SwiftUI-Weather/ContentView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "089F66CF-9AC1-4F85-9818-1616D9A26336"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftUI-Weather/ContentView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

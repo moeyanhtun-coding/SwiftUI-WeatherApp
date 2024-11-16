@@ -11,15 +11,10 @@ struct ContentView: View {
     @State private var isNight = false
     var body: some View {
         ZStack {
-            BackgroundView(
-                topColor: isNight ? .black : .blue,
-                bottomColor: isNight ? .gray : Color("lightBlue"))
+            BackgroundView(isNight: isNight)
             VStack{
                 CityTextView(city: "Yangon")
-                
-                MainWeatherStatusView(
-                    imageName: "cloud.sun.fill",
-                    temperature: 79)
+                MainWeatherStatusView(isNight: isNight)
                 
                 HStack(spacing: 20){
                     WeatherDayView(
@@ -52,16 +47,7 @@ struct ContentView: View {
                         temperature: 75)
                 }
                 Spacer()
-                Button{
-                    isNight = !isNight
-                }
-                label: {
-                    Text("Change Day Time")
-                        .frame(width: 280, height: 50)
-                        .background(.white)
-                        .font(.system(size: 20, weight: .bold, design: .default))
-                        .cornerRadius(10)
-                }
+                WeahterChangeButtonView(isNight: $isNight)
                 Spacer()
                 
             }
@@ -100,15 +86,12 @@ struct WeatherDayView: View {
 
 
 struct BackgroundView: View {
-    var topColor: Color
-    var bottomColor: Color
+    var isNight: Bool
+    
     var body: some View {
-        LinearGradient(gradient:Gradient(
-            colors:[topColor,
-                    bottomColor]),
-                       startPoint: .topLeading,
-                       endPoint: .bottomTrailing)
-        .edgesIgnoringSafeArea(.all)
+        ContainerRelativeShape()
+            .fill(isNight ? Color.black.gradient : Color.blue.gradient)
+            .ignoresSafeArea()
     }
 }
 
@@ -123,19 +106,37 @@ struct CityTextView: View {
 }
 
 struct MainWeatherStatusView: View {
-    var imageName : String
-    var temperature: Int
+    
+   var isNight : Bool
     var body: some View {
         VStack(spacing: 10){
-            Image(systemName: imageName)
+            Image(systemName: isNight ? "moon.stars.fill" : "cloud.sun.fill")
                 .renderingMode(.original)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 250,height: 230)
-            Text("\(temperature)º")
+            Text(isNight ? "55ºF" : "80ºF")
                 .font(.system(size: 70, weight: .medium))
                 .foregroundColor(.white)
         }
         .padding(.bottom,50 )
+    }
+}
+
+struct WeahterChangeButtonView: View {
+    @Binding var isNight: Bool
+    var body: some View {
+         
+        Button{
+            isNight = !isNight
+        }
+        label: {
+            Text("Change Day Time")
+                .foregroundColor(isNight ? .black : .blue)
+                .frame(width: 280, height: 50)
+                .background(.white)
+                .font(.system(size: 20, weight: .bold, design: .default))
+                .cornerRadius(10)
+        }
     }
 }
